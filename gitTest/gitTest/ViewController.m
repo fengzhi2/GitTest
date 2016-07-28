@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self logNew];
+    NSLog(@"冲突");
+    [self logSomething];
 }
 
 -(void)logSomething{
