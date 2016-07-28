@@ -16,12 +16,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self logSomething];
+    [self logNew];
 }
 
 -(void)logSomething{
     
     NSLog(@"第一次change");
+}
+
+-(void)logNew{
+    NSLog(@"新的输出");
 }
 
 - (void)didReceiveMemoryWarning {
