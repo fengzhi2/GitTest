@@ -17,6 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self logNew];
+    [self logSomething];
 }
 
 -(void)logSomething{
